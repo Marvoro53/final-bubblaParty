@@ -18,7 +18,7 @@ img{
     filter: drop-shadow(5px 5px red);
 }
 body{
-    background-image: url(bu_logo.png);
+    background-image: url(images/bu_logo.png);
     background-size: contain;
 }
 /*headers*/

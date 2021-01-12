@@ -1,4 +1,5 @@
 var hats = {
+    Price: "$4.00",
     Size: "One size",
     Brand: "Unique",
     Pieces: 8,
@@ -8,11 +9,12 @@ function hats1() {
     var place = document.getElementById("submit1");
 
     for (value in hats) {
-        place.innerHTML = "Size: " + hats.Size + "<br>" + "Brand: " + hats.Brand + "<br>" + "Pieces: " + hats.Pieces + "<br>" + "Dimensions LxWxH: " + hats.Dimensions
+        place.innerHTML ="Price: "+hats.Price+"<br>"+ "Size: " + hats.Size + "<br>" + "Brand: " + hats.Brand + "<br>" + "Pieces: " + hats.Pieces + "<br>" + "Dimensions LxWxH: " + hats.Dimensions
     };
 };
 //second pro
 var plates = {
+    Price: "$4.50",
     Material: "Paper",
     Color: ["Red", "Blue", "White"],
     Brand: "Unique",
@@ -22,12 +24,13 @@ function plates1() {
     var place = document.getElementById("submit2");
 
     for (value in plates) {
-        place.innerHTML = "Material: " + plates.Material + "<br>" + "Color" + plates.Color
+        place.innerHTML = "Price: " + plates.Price + "<br>" + "Material: " + plates.Material + "<br>" + "Color" + plates.Color
            + "<br>" + "Brand: " + plates.Brand + "<br>" + "Occasion" + plates.Occasion
     }
 };
 //third pro
 var napkins = {
+    price: "$3.99",
     color:["Silver", "White", "Black"],
     size: "1 piece",
     material: "Paper",
@@ -37,12 +40,13 @@ function napkins1() {
     var place=document.getElementById("submit3");
 
     for(value in napkins){
-        place.innerHTML = "Color: " + napkins.color + "<br>" + "Size: " + napkins.size + "<br>"
+        place.innerHTML ="Price: "+napkins.price+"<br>"+ "Color: " + napkins.color + "<br>" + "Size: " + napkins.size + "<br>"
         + "Material: " + napkins.material + "<br>" + "Brand: " +napkins.brand
     }
 }
 //fourth pro
 var cup = {
+    price: "$4.50",
     material: "Plastic",
     color: ["Red", "Clear"],
     brand: "Amazon Basics",
@@ -52,7 +56,7 @@ function cup1(){
     var place=document.getElementById("submit4");
 
     for(value in cup){
-        place.innerHTML= "Material: " + cup.material + "<br>" + "Color: " + cup.color + "<br>"
+        place.innerHTML="Price: "+cup.price+"<br>"+ "Material: " + cup.material + "<br>" + "Color: " + cup.color + "<br>"
         + "Brand: " + cup.brand + "<br>" + "Capacity: " + cup.capacity
     }
 }
