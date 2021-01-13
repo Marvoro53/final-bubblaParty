@@ -116,5 +116,4 @@ window.addEventListener("load", function () {
       var size = maxVal - minVal + 1;
       return Math.floor(minVal + size * Math.random());
    }
-
 });
