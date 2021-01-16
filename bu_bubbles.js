@@ -60,7 +60,7 @@ bubble.prototype.moveBubble = function (height, width) {
 
 window.addEventListener("load", function () {
    // Reference to the bubble box
-   var bubbleBox = document.getElementById("bubbleBox");
+   var bubbleBox = document.getElementsByClassName("bubblebox");
 
    // Create a new bubble every half-second
    setInterval(function() {
