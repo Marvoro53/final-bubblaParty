@@ -63,7 +63,7 @@ window.addEventListener("load", function () {
    var bubbleBox = document.getElementById("bubbleBox");
 
    // Create a new bubble every half-second
-   setInterval(function () {
+   setInterval(function() {
 
       // Do not create more than 20 bubbles at any one time
       if (bubbleBox.childElementCount <= 20) {
@@ -111,9 +111,10 @@ window.addEventListener("load", function () {
 
    }, 500);
 
-   /* Function to return a random integer between minVal and maxValue inclusive */
-   function randInt(minVal, maxVal) {
-      var size = maxVal - minVal + 1;
-      return Math.floor(minVal + size * Math.random());
-   }
+ /* Function to return a random integer between minVal and maxValue inclusive */
+ function randInt(minVal, maxVal) {
+   var size = maxVal - minVal + 1;
+   return Math.floor(minVal + size*Math.random());
+}  
 });
+
